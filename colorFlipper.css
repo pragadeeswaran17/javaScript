@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: aquamarine;
+    color: black;
+}
+
+nav .nav-div-heading{
+    position: absolute;
+    left: 0; 
+    margin: 0;
+    padding: 1rem 0 1rem 3%;    
+}
+
+nav .nav-div-list{
+    position: absolute;
+    right: 0; 
+    margin: 0;
+    padding: 1rem 5% 1rem 0;    
+}
+
+nav .nav-div-list ul{
+    list-style-type: none;
+}
+
+nav .nav-div-list ul li{
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+.main-container{
+    margin: 0;
+    padding: 0;
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+main .main-container h2{
+    padding: 3%;
+    background-color: #111827;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+
+.btn {
+  background-color: #FFFFFF;
+  border: 1px solid rgb(209,213,219);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background-color: rgb(249,250,251);
+}
+
+.btn:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.btn:focus-visible {
+  box-shadow: none;
+}
+
+.btn:active{
+    scale: 0.95;
+    background-color: #D1D5DB;
+}
+
+
+
